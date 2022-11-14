@@ -10,18 +10,22 @@ The leadership is concerned about a "silver tsunami," where there is a mass exod
 ## Results of Analysis
 
 1. Table results of those near retirement, resulting in duplicates from holding multiple positions.
+
 ![image](https://user-images.githubusercontent.com/107373721/201551748-8fb79942-5777-4b64-b72e-fa3783178f11.png)
 
 
 2. Using the 'distinct on' SQL script, the duplicates were removed leaving the most recent job title to create a unique list of retiring employees.
+
 ![image](https://user-images.githubusercontent.com/107373721/201551767-559cfbe4-76ef-4169-8f33-b7fbf620ebb8.png)
 
 
 3. Retiring Counts by Title for a total of 90,398 potential retirees.
+
 ![image](https://user-images.githubusercontent.com/107373721/201551785-f550572b-7334-4f00-b412-223a6a31b9f8.png)
 
 
 4. Mentorship Eligibility table for current employees who were born between January 1, 1965 and December 31, 1965.
+
 ![image](https://user-images.githubusercontent.com/107373721/201551803-e13aa58e-9c3a-4b54-8ce0-18cecb371358.png)
 
 
