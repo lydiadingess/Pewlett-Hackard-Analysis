@@ -39,7 +39,8 @@ The leadership is concerned about a "silver tsunami," where there is a mass exod
 ## Future Analysis
 For future analysis it would be beneficial to query how many empoyees within each role are elibible for mentorship. This will help determine which areas will require the most upcoming focus for mentorship.
 
-
+![image](https://user-images.githubusercontent.com/107373721/201562437-c1836715-e0cb-4d26-87ae-e8e93eda4735.png)
 
 Then to compare that to the amount of eligable mentors within the company, this will allow the company to know if they are able to maintain the mentorship program. 
 
+![image](https://user-images.githubusercontent.com/107373721/201562603-240fbeb6-ab10-489a-835b-3522dad50bd6.png)
