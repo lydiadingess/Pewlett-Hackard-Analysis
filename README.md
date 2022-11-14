@@ -35,3 +35,11 @@ The leadership is concerned about a "silver tsunami," where there is a mass exod
 
 2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
  - The potential mentee list is 1,549 employees. Assuming Pewlett Hackard is planning to fill the roles from those retiring, there will be a significant gap between mentor and mentees. Pewlett Hackard currently does not have enough qualified employees to be mentors.
+
+## Future Analysis
+For future analysis it would be beneficial to query how many empoyees within each role are elibible for mentorship. This will help determine which areas will require the most upcoming focus for mentorship.
+
+
+
+Then to compare that to the amount of eligable mentors within the company, this will allow the company to know if they are able to maintain the mentorship program. 
+
