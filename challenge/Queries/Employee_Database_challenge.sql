@@ -68,3 +68,38 @@ me.title
 FROM mentorship_eligibilty as me
 GROUP BY me.title
 ORDER BY me.count DESC;
+
+-- Deliverable 3: Create additional analysis
+SELECT COUNT(me.title), me.title
+INTO mentee_counts
+FROM mentorship_eligibilty AS me
+GROUP BY me.title
+ORDER BY COUNT(me.title) DESC;
+
+SELECT * FROM mentee_counts;
+
+
+
+SELECT DISTINCT ON (e.emp_no)e.emp_no, 
+	e.first_name,
+	e.last_name,
+	t.title,
+	t.from_date,
+	t.to_date
+INTO unique_mentors_list
+FROM employees as e
+INNER JOIN titles as t
+ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (t.from_date BETWEEN '1985-01-01' AND '1985-12-31')
+ORDER by e.emp_no ASC, t.from_date DESC;
+
+SELECT * FROM unique_mentors_list;
+
+SELECT COUNT(um.title), um.title
+INTO unique_mentor_count
+FROM unique_mentors_list AS um
+GROUP BY um.title
+ORDER BY COUNT(um.title) DESC;
+
+SELECT * FROM unique_mentor_count;
